@@ -1,0 +1,139 @@
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* header */
+header > .logo {
+  background-image: url(https://previews.123rf.com/images/aldonat/aldonat1603/aldonat160300072/53859219-%ED%86%A0%EB%81%BC-%EB%B0%B0%EA%B2%BD.jpg);
+  height: 50px;
+  width: 1000px;
+  font-size: 30px;
+}
+
+.logo {
+  position: relative;
+}
+
+.logo > a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header > div > .fa-cog {
+  font-size: 15px;
+  position: absolute;
+}
+
+header > .logo > .fa-instagram {
+  position: absolute;
+  right: 80px;
+  font-size: 25px;
+}
+header > .logo > .fa-youtube {
+  position: absolute;
+  right: 50px;
+  font-size: 25px;
+}
+
+/* main */
+main {
+  width: 1000px;
+}
+
+/* category */
+main > aside {
+  float: left;
+  width: 170px;
+  height: 100%;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 25px;
+  position: relative;
+}
+
+/* aside 눌렀을때 볼드체 */
+main > aside > ul > li > a:active {
+  font-weight: bold;
+}
+
+main > aside > ul {
+  padding-left: 15px;
+}
+
+main > aside > ul > li > a:active {
+  font-weight: bold;
+}
+
+main > aside > ul > li > .fa-cog {
+  /* font-size: 15px; */
+  position: absolute;
+  right: 10px;
+}
+
+main > aside > ul > li:first-child {
+  margin-bottom: 20px;
+}
+
+main > article {
+  float: right;
+  border: 1px solid red;
+  width: 730px;
+  height: auto;
+  box-sizing: border-box;
+  margin-right: 25px;
+  position: relative;
+}
+
+main > article > div > span {
+  font-size: 20px;
+}
+
+main > article > div .fa-plus-square {
+  position: absolute;
+  right: 50px;
+  font-size: 25px;
+}
+
+main > article > ul > li {
+  border: 1px solid red;
+  width: 150px;
+  height: auto;
+  margin: 15px 5px 15px 5px;
+  display: inline-block;
+}
+
+main > article > ul > li > div > a > img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  /* z-index: 100; */
+}
+
+main > article > ul > li > div > div > span {
+  display: inline-block;
+}
+
+main > article > nav > .pagination {
+  /* text-align: center; */
+}
+
+/* 글자수 제한 */
+main > article > ul > li > div > div > .titleClose {
+  margin-top: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+main > article > ul > li > div > div > .date {
+  margin-top: 20px;
+}

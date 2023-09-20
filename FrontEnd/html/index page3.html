@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+    <!-- css -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+    />
+    <!-- boostrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- style -->
+    <style></style>
+  </head>
+
+  <body>
+    <!-- header 시작 -->
+    <header>
+      <div class="logo">
+        <a href="#">Green`s Blog</a>
+        <i
+          type="button"
+          class="fa fa-cog"
+          aria-hidden="true"
+          data-toggle="modal"
+          data-target="#headerModal"
+          data-backdrop="static"
+        ></i>
+        <p class="fab fa-instagram"></p>
+        <p class="fab fa-youtube"></p>
+      </div>
+
+      <!-- header Modal -->
+      <div class="modal fade" id="headerModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <!-- Modal body -->
+            <div class="modal-body">
+              <div>
+                <div>블로그명</div>
+                <input type="text" placeholder="Green`s Blog" />
+                <span>한글, 영문, 숫자, 혼용가능 (4-25자 이내)</span>
+              </div>
+              <div>
+                <div>블로그 상단 배경</div>
+                <button type="button">이미지 등록</button>
+                <input type="text" />
+                <span>가로 1000px, 세로 80~300px</span>
+              </div>
+              <div>
+                <div>YouTube URL</div>
+                <input
+                  type="text"
+                  placeholder="http://www.youtebe.com/@User ID"
+                />
+                <span>User ID 입력</span>
+              </div>
+              <div>
+                <div>블로그명</div>
+                <input
+                  type="text"
+                  placeholder="http://www.instagram.com/User ID"
+                />
+                <span>User ID 입력</span>
+              </div>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">
+                취소
+              </button>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-dismiss="modal"
+              >
+                확인
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header 끝 -->
+
+    <!-- main 시작 -->
+    <main>
+      <!-- aside 시작 -->
+      <aside>
+        <ul class="category">
+          <li>
+            <a href="">전체보기</a
+            ><i
+              type="button"
+              class="fa fa-cog"
+              aria-hidden="true"
+              data-toggle="modal"
+              data-target="#cate_Modal"
+            ></i>
+          </li>
+          <li><a href="">Python(12)</a></li>
+          <li><a href="">Java(2)</a></li>
+          <li><a href="">Ios(8)</a></li>
+          <li><a href="">소프트웨어 자료(26)</a></li>
+          <li><a href="">자료구조(8)</a></li>
+          <li><a href="">리눅스(8)</a></li>
+          <li><a href="">Git(4)</a></li>
+          <li><a href="">자기계발(3)</a></li>
+          <li><a href="">경영전략(20)</a></li>
+          <li><a href="">리더쉽(7)</a></li>
+        </ul>
+      </aside>
+      <!-- cate modal -->
+      <div class="modal fade" id="cate_Modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">ㅁㅁㅁㅁ</h4>
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">Modㅁㅁㅁㅁㅁ.</div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">
+                ㅁㅁㅁ
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- aside 끝 -->
+
+      <!-- article 시작 -->
+      <article>
+        <div>
+          <span>경영전략</span>
+          <span>20</span>
+          <a href="./write page5.html"><i class="fas fa-plus-square"></i></a>
+        </div>
+        <ul>
+          <li>
+            <div>
+              <a href="#"><img src="../img/apple.png" alt="" /></a>
+              <div>
+                <span class="titleClose"
+                  >팬덤 확보에 성공한 4세대팬덤 확보에 성공한 4세대팬덤 확보에
+                  성공한 4세대팬덤 확보에 성공한 4세대팬덤 확보에 성공한
+                  4세대팬덤 확보에 성공한 4세대팬덤 확보에 성공한 4세대</span
+                >
+                <span class="date">2022.12.30.</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href="#"><img src="../img/apple.png" alt="" /></a>
+              <div>
+                <span class="titleClose"
+                  >팬덤 확보에 성공한 4세대팬덤 확보에 성공한 4세대팬덤 확보에
+                  성공한 4세대팬덤 확보에 성공한 4세대팬덤 확보에 성공한
+                  4세대팬덤 확보에 성공한 4세대팬덤 확보에 성공한 4세대</span
+                >
+                <span class="date">2022.12.30.</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href="#"><img src="../img/apple.png" alt="" /></a>
+              <div>
+                <span class="titleClose"
+                  >팬덤 확보에 성공한 4세대팬덤 확보에 성공한 4세대팬덤 확보에
+                  성공한 4세대팬덤 확보에 성공한 4세대팬덤 확보에 성공한
+                  4세대팬덤 확보에 성공한 4세대팬덤 확보에 성공한 4세대</span
+                >
+                <span class="date">2022.12.30.</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href="#"><img src="../img/apple.png" alt="" /></a>
+              <div>
+                <span class="titleClose"
+                  >팬덤 확보에 성공한 4세대팬덤 확보에 성공한 4세대팬덤 확보에
+                  성공한 4세대팬덤 확보에 성공한 4세대팬덤 확보에 성공한
+                  4세대팬덤 확보에 성공한 4세대팬덤 확보에 성공한 4세대</span
+                >
+                <span class="date">2022.12.30.</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href="#"><img src="../img/apple.png" alt="" /></a>
+              <div>
+                <span class="titleClose"
+                  >팬덤 확보에 성공한 4세대팬덤 확보에 성공한 4세대팬덤 확보에
+                  성공한 4세대팬덤 확보에 성공한 4세대팬덤 확보에 성공한
+                  4세대팬덤 확보에 성공한 4세대팬덤 확보에 성공한 4세대</span
+                >
+                <span class="date">2022.12.30.</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href="#"><img src="../img/apple.png" alt="" /></a>
+              <div>
+                <span class="titleClose"
+                  >팬덤 확보에 성공한 4세대팬덤 확보에 성공한 4세대팬덤 확보에
+                  성공한 4세대팬덤 확보에 성공한 4세대팬덤 확보에 성공한
+                  4세대팬덤 확보에 성공한 4세대팬덤 확보에 성공한 4세대</span
+                >
+                <span class="date">2022.12.30.</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href="#"><img src="../img/apple.png" alt="" /></a>
+              <div>
+                <span class="titleClose"
+                  >팬덤 확보에 성공한 4세대팬덤 확보에 성공한 4세대팬덤 확보에
+                  성공한 4세대팬덤 확보에 성공한 4세대팬덤 확보에 성공한
+                  4세대팬덤 확보에 성공한 4세대팬덤 확보에 성공한 4세대</span
+                >
+                <span class="date">2022.12.30.</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href="#"><img src="../img/apple.png" alt="" /></a>
+              <div>
+                <span class="titleClose"
+                  >팬덤 확보에 성공한 4세대팬덤 확보에 성공한 4세대팬덤 확보에
+                  성공한 4세대팬덤 확보에 성공한 4세대팬덤 확보에 성공한
+                  4세대팬덤 확보에 성공한 4세대팬덤 확보에 성공한 4세대</span
+                >
+                <span class="date">2022.12.30.</span>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <!-- 페이지 -->
+        <nav aria-label="..." class="d-flex justify-content-center">
+          <ul class="pagination">
+            <li class="page-item disabled">
+              <a class="page-link">Previous</a>
+            </li>
+            <li class="page-item active">
+              <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item" aria-current="page">
+              <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#">Next</a>
+            </li>
+          </ul>
+        </nav>
+      </article>
+      <!-- article 끝 -->
+    </main>
+    <!-- main 끝 -->
+
+    <!-- footer 시작 -->
+    <footer></footer>
+    <!-- footer 끝 -->
+  </body>
+</html>
